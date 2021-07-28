@@ -29,18 +29,6 @@ const handleUserInput = (input) => {
   if (input === 'd') {
     connection.write('Move: right');
   } 
-  if (input === 'h') {
-      connection.write('Say: hi');
-  } 
-  if (input === 'y') {
-    connection.write('Say: yes');
-  } 
-  if (input === 'n') {
-    connection.write('Say: no');
-  }
-  if (input === 'b') {
-    connection.write('Say: bye');
-  }
 
 
 };
